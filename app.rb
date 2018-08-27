@@ -1,4 +1,6 @@
 class Application
+
+  
   post '/student' do
   @student = Student.new(params[:student])
 
@@ -11,4 +13,3 @@ class Application
   erb :student
 end
 
-end
