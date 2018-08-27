@@ -5,7 +5,7 @@ class Application
 
   get '/' do
   erb :new
-end
+  end
 
   post '/student' do
   @student = Student.new(params[:student])
